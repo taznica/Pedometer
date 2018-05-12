@@ -14,6 +14,7 @@
 		87BE751820A730F00037589A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BE751620A730F00037589A /* LaunchScreen.storyboard */; };
 		87BE752320A730F00037589A /* PedometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BE752220A730F00037589A /* PedometerTests.swift */; };
 		87BE752E20A730F00037589A /* PedometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BE752D20A730F00037589A /* PedometerUITests.swift */; };
+		87BE753D20A7374B0037589A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BE753C20A7374B0037589A /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		87BE752920A730F00037589A /* PedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BE752D20A730F00037589A /* PedometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerUITests.swift; sourceTree = "<group>"; };
 		87BE752F20A730F00037589A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87BE753C20A7374B0037589A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87BE753D20A7374B0037589A /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				87BE752120A730F00037589A /* PedometerTests */,
 				87BE752C20A730F00037589A /* PedometerUITests */,
 				87BE750B20A730ED0037589A /* Products */,
+				87BE753B20A7374B0037589A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				87BE752F20A730F00037589A /* Info.plist */,
 			);
 			path = PedometerUITests;
+			sourceTree = "<group>";
+		};
+		87BE753B20A7374B0037589A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87BE753C20A7374B0037589A /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
